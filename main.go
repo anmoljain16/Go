@@ -74,6 +74,6 @@ func main() {
 	router.GET("/hehe/:id", gethehe)
 	router.PATCH("/hehe/:id", getToggle)
 	router.POST("/hehe", addhehehe)
-	router.Run("localhost:6969")
+	router.Run("localhost:9696")
 
 }
